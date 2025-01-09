@@ -1,0 +1,10 @@
+:root{
+    --color-principal:#003b95;
+    --color-primary-button-bg-letters:#006ce4;
+    --color-hover-button-bg-trans:#076cfb2f;
+    --bui_spacing: 4px;
+    --bui_spacing_2x: calc(var(--bui_spacing)*2);
+    --bui_spacing_4x: calc(var(--bui_spacing)*4);
+    --bui_spacing_6x: calc(var(--bui_spacing)*6);
+    --bui_spacing_8x: calc(var(--bui_spacing)*8);
+}

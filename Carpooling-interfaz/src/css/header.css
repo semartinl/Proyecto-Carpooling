@@ -1,0 +1,141 @@
+@import "colors.css";
+
+header{
+    width: 100%;
+    background-color: var(--color-principal);
+    margin:0;
+    padding: 0;
+}
+
+body{
+	margin:0;
+}
+
+.container-header{
+    color:white;
+}
+
+p, h1, h2, h3, h4, span, label, li, a, button {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+main,header>*{
+    max-width: 1100px;
+    margin: 0px auto;
+    
+}
+
+.container-header span {
+    color: white;
+}
+
+nav#cabecera-nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 0;
+}
+
+.title a{
+    color:white;
+    text-decoration: none;
+}
+
+#botones-header{
+    display:flex;
+}
+
+#img-bandera{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+header svg{
+    fill:white;
+    width: 20px;
+    height: 20px;   
+}
+
+#botones-header{
+    display: flex;
+    justify-content: space-around;
+
+}
+#botones-header >a{
+    display:flex;
+    align-items: center;
+}
+.seleccion{
+    background-color: transparent;
+    border-style: none;
+    color:white;
+    padding: 8px 12px;
+    cursor: pointer;
+    width: auto;
+    
+}
+.alojamiento{
+    text-decoration: none;
+    
+}
+.seleccion:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.formulario{
+    text-decoration: none;
+    color:var(--color-primary-button-bg-letters);
+    background-color: white;
+    border-radius: 2px;
+    padding:4px 12px;
+    margin:5px;
+    font-size: 14px;
+}
+
+#enlaces-navegacion {
+    display: flex;
+}
+
+#enlaces-navegacion .navegacion-flights:first-child {
+    border-radius: 32px;
+    border:white solid 1px;
+}
+
+.navegacion-flights{
+    width: fit-content;
+    margin-right: 5px;
+}
+
+.navegacion-flights span {
+    font-size: 14px;
+}
+ 
+.navegacion-flights :hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 32px;
+}
+
+.navegacion-flights span:hover {
+    box-shadow: none;
+}
+
+#button-flights{
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+    text-decoration: none;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    
+}
+#button-flights span:first-child{
+    margin-right: 7px;
+}
