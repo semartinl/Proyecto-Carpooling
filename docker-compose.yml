@@ -1,0 +1,20 @@
+
+services:
+  web:
+    # image: 619071331372.dkr.ecr.us-east-1.amazonaws.com/carpooling-proyect:2.0
+    build: ./Carpooling-interfaz
+    ports:
+      - 5173:5173
+  api-reservas:
+    build: ./Carpooling-reservas
+    ports:
+      - 8082:8082
+  api-usuarios:
+    build: ./Carpooling-usuarios
+    ports:
+      - 8083:8083
+  api-trayectos:
+    build: ./Carpooling-trayectos
+    ports:
+      - 8081:8081
+    

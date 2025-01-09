@@ -1,0 +1,11 @@
+apiVersion: v1 
+kind: Service
+metadata:
+  name: interfaz-service
+spec:
+  selector:
+    app: interfaz
+  ports:
+  - protocol: TCP 
+    port: 5173
+    targetPort: 5173

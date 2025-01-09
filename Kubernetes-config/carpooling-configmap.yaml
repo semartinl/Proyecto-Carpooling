@@ -1,0 +1,9 @@
+apiVersion: v1 
+kind: ConfigMap
+metadata:
+  name: carpooling-configmap
+data: 
+# Add your configuration here
+  usuarios_url: usuarios-service #El valor es el nombre del servicio que está conectada al deployment del microservicios
+  # trayectos_url: trayectos-service
+  # reservas_url: reservas-service
